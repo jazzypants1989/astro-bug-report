@@ -1,18 +1,3 @@
----
-title: "The View Transitions API"
-nextLink: "./6-typescript"
-githubLink: true
----
-
-import CodeBlock from "../../components/CodeBlock.astro"
-import IFrame from "../../components/IFrame.astro"
-import Demo from "../../components/Demo.astro"
-
-export const demoURL = "/demos/"
-
-<Demo id="demo-1" slug="VwEeqgg">
-<CodeBlock slot="code">
-```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -56,15 +41,10 @@ export const demoURL = "/demos/"
           text.innerHTML = "State 1"
         } else {
           box.classList.add("state-2")
-          text.innerHTML = "WHO COULD HAVE EXPECTED ALL THIS TEXT, THIS WILL BE A PROBLEM"
+          text.innerHTML =
+            "WHO COULD HAVE EXPECTED ALL THIS TEXT, THIS WILL BE A PROBLEM"
         }
       })
     </script>
-
   </body>
 </html>
-```
-
-</CodeBlock>
-<IFrame src={demoURL + "1"} slot="demo" small />
-</Demo>
