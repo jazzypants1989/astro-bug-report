@@ -44,7 +44,7 @@ export default function SolidPicker(props: {
         direction="down"
       />
 
-      {/* <span class="hidden">{props.children}</span> */}
+      <span class="hidden">{props.children}</span>
     </div>
   )
 }
